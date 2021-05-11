@@ -294,16 +294,8 @@
   color: white;
   height: 41rem;
   background: #ff00cc; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #333399,
-    #ff00cc
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #333399,
-    #ff00cc
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(300deg,#333399,#ff00cc); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(300deg,#333399,#ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   box-shadow: 0px 12px 30px #bd4ad4;
   border-radius: 90px;
 }
