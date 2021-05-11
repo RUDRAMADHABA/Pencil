@@ -18,9 +18,33 @@
 
 #navbar {
   grid-area: navbar;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   border-radius: 3rem;
   height: 5rem;
+}
+
+#nav2 ul li {
+  display: inline-block;
+  padding-right: 80px;
+  font-size: 20px;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  border-radius: 2rem;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform, border-radius;
+  transition-property: box-shadow, transform, border-radius;
+}
+
+#nav2 ul li:hover {
+  background-image: linear-gradient(273deg, #4776e6, #8e54e9);
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
 }
 #head {
   grid-area: head;
@@ -28,7 +52,7 @@
   display: flex;
   display: inline-block;
   font-size: 50px;
-  text-shadow: 7px 7px 0px #6471e0;
+  /* text-shadow: 7px 7px 0px #6471e0; */
   font-family: "Bebas Neue", cursive;
   text-align: center;
   margin-left: 34rem;
@@ -57,9 +81,17 @@
   grid-area: section1;
   color: white;
   height: 41rem;
-  background: #ad5389;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(21deg, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(21deg, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #ad5389; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    21deg,
+    #3c1053,
+    #ad5389
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    21deg,
+    #3c1053,
+    #ad5389
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   box-shadow: 0px 12px 30px #a75ce4;
   border-radius: 90px;
 }
@@ -73,9 +105,17 @@
   grid-area: section2;
   color: white;
   height: 41rem;
-  background: #654ea3;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(35deg, #8b6675, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(35deg, #8b6675, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #654ea3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    35deg,
+    #8b6675,
+    #654ea3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    35deg,
+    #8b6675,
+    #654ea3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   box-shadow: 0px 12px 30px #855075;
   border-radius: 90px;
 }
@@ -89,10 +129,19 @@
   grid-area: section3;
   color: white;
   height: 41rem;
-  background: linear-gradient(to right, #c33764, #1d2671);
-  background-color: #4000b8;
-  background-image: url("https://www.transparenttextures.com/patterns/black-paper.png");
-  box-shadow: 0px 12px 30px #6471e0;
+  background: #00f260; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #0575e6,
+    #00f260
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0575e6,
+    #00f260
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  box-shadow: 0px 12px 30px #53da87;
   border-radius: 90px;
 }
 #section4 {
@@ -105,10 +154,19 @@
   grid-area: section4;
   color: white;
   height: 41rem;
-  background: linear-gradient(to right, #c33764, #1d2671);
-  background-color: #4000b8;
-  background-image: url("https://www.transparenttextures.com/patterns/black-paper.png");
-  box-shadow: 0px 12px 30px #6471e0;
+  background: #2c3e50; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3498db,
+    #2c3e50
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3498db,
+    #2c3e50
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  box-shadow: 0px 12px 30px #7e87da;
   border-radius: 90px;
 }
 #section5 {
@@ -121,9 +179,18 @@
   grid-area: section5;
   color: white;
   height: 41rem;
-  background: linear-gradient(to right, #c33764, #1d2671);
-  background-color: #4000b8;
-  background-image: url("https://www.transparenttextures.com/patterns/black-paper.png");
+  background: #e8cbc0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #636fa4,
+    #e8cbc0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #636fa4,
+    #e8cbc0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   box-shadow: 0px 12px 30px #6471e0;
   border-radius: 90px;
 }
@@ -137,10 +204,18 @@
   grid-area: section6;
   color: white;
   height: 41rem;
-  background: linear-gradient(to right, #c33764, #1d2671);
-  background-color: #4000b8;
-  background-image: url("https://www.transparenttextures.com/patterns/black-paper.png");
-  box-shadow: 0px 12px 30px #6471e0;
+  background: #ff00cc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #333399,
+    #ff00cc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #333399,
+    #ff00cc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: 0px 12px 30px #bd4ad4;
   border-radius: 90px;
 }
 #section7 {
@@ -279,8 +354,8 @@
 
 #footer {
   grid-area: footer;
-  margin-top: -5rem;
-  height: 8rem;
+  margin-top: -6rem;
+  height: 10rem;
   color: white;
   font-size: 20px;
   background-color: rgb(119, 173, 221);
@@ -299,4 +374,31 @@
   text-align: justify;
   justify-content: baseline;
   float: inherit;
+}
+
+#end {
+  align-self: center;
+  /* border: 2px solid red; */
+  height: 5rem;
+  width: 20rem;
+  margin-top: 10rem;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  border-radius: 8rem;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform, border-radius;
+  transition-property: box-shadow, transform, border-radius;
+}
+
+#end:hover {
+  background-image: linear-gradient(273deg, #8e2de2, #4a00e0);
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
