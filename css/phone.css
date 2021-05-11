@@ -1,0 +1,39 @@
+div > * {
+  padding: 0px;
+}
+div #section1 img {
+  height: 20rem;
+}
+div #section1 #side2 {
+  height: 30rem;
+  width: 30rem;
+}
+div #section2 img {
+  height: 20rem;
+  width: 20rem;
+}
+div #section3 img {
+  height: 20rem;
+  width: 20rem;
+}
+div #section3 #side6 {
+  height: 30rem;
+  width: 30rem;
+  margin-top: 5rem;
+}
+div #section4 img {
+  height: 20rem;
+  width: 20rem;
+}
+div #section5 img {
+  height: 20rem;
+  width: 20rem;
+}
+div #section6 img {
+  height: 20rem;
+  width: 20rem;
+}
+div #section7 img {
+  height: 20rem;
+  width: 20rem;
+}
