@@ -1,5 +1,5 @@
 # Pencil
-## Read the instructions carefully!
+## Read the Instructions Carefully!
 
 ### File Details
 * cli: This file contains the introductory design and its code. Help command code is also in this file.
@@ -12,4 +12,8 @@
 ***You can go through this link [Pencil](https://gtribe.github.io/pencil/) which contains all the commands and the instructions.***
 
 ### Additional Information
-In the file Book1, 0 indicates that the element is not present in the f-block and non-zero numbers indicates that the element is present in the f-block and their serial.
+* Any change or modification in the code must be done in another **branch**.
+* Branch creating format: yourname#serial-number For example: **biswajit#01**
+* Branch is compulsory so that the main source code remains protected.
+* Later code will be reviewed and merged with the main branch.
+* In the file Book1, 0 indicates that the element is not present in the f-block and non-zero numbers indicates that the element is present in the f-block and their serial.
