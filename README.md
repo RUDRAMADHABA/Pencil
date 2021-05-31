@@ -9,7 +9,7 @@
 * pencil: This is the main c file for the application. 
 * Pencil Application: This is the exe file which you can run it on your machine.
 
-*** You can go through this link [Pencil](https://gtribe.github.io/pencil/) which contains all the commands and the instructions. ***
+***You can go through this link [Pencil](https://gtribe.github.io/pencil/) which contains all the commands and the instructions.***
 
 ### Additional Information
 In the file Book1, 0 indicates that the element is not present in the f-block and non-zero numbers indicates that the element is present in the f-block and their serial.
